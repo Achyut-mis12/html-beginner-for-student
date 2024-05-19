@@ -1,0 +1,86 @@
+
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+  background-color: #1277b2;
+  padding: 25px;
+  display: flex;
+  font-size: 35px;
+  color: rgb(228, 43, 43);
+  align-items: center;
+  
+}
+
+
+nav {
+  float: right;
+  /* width: 30%; */
+  /* height: 300px;  */
+  /* background: #96e095; */
+  padding: 20px;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; 
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: #d6438a;
+  padding: 10px;
+  text-align: center;
+  color:black;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>cities</h2>
+  
+  <nav>
+    <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Packages</a>
+  <a href="#">Contact</a>
+  </nav>
+
+</header>
+<section>
+  <img src="bara-imambara.jpg" width="400px" height="400px">
+  <article>
+    <h1>Lucknow</h1>
+    <p>lucknow is the capital city of UTTAR PRADESH. It is the most populous city in the  india, with a metropolitan area of over 5 million.</p>
+    <p>Standing on the River gomti, lucknow has been a cultured and traditional city, its history going back,it named from lakshamnpur.</p>
+  </article>
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>
+
